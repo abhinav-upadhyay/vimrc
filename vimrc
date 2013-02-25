@@ -58,3 +58,6 @@ let g:clang_library_path="/usr/lib/"
 let g:clang_use_library = 1
 
 nmap <F8> :TagbarToggle<CR>
+set foldmethod=indent
+set foldlevel=99
+nnoremap <F5> :GundoToggle<CR>
